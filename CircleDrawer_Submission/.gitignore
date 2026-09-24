@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+x64/
+Win32/
+Debug/
+Release/
+*.aps
+*.obj
+*.pdb
+*.ipdb
+*.iobj
+*.tlog
+*.log
+
+# 검증 스크립트 결과물
+tools/output/
+__pycache__/

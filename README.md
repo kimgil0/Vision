@@ -2,6 +2,8 @@
 
 24-bit BMP 이미지 필터 CLI — C++17, 외부 라이브러리 없음
 
+> **심화 과제(세 점을 지나는 원, MFC Dialog)** 는 [`CircleDrawer_Submission/`](CircleDrawer_Submission/) 폴더에 있습니다.
+
 ## 구현 항목
 
 - **필터 6종**: `grayscale`, `invert`, `threshold` (고정값 / Otsu 자동), `blur` (가우시안), `sharpen` (언샤프 마스크), `sobel` (엣지 검출)
