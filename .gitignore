@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+*.user
+x64/
+Win32/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ipdb
+*.iobj
+*.tlog
+*.log
+
+# Program outputs
+Output/
+*.tmp

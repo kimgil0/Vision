@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{3F2C1A10-6B7D-4E8F-9A01-1B2C3D4E5F01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3F2C1A10-6B7D-4E8F-9A01-1B2C3D4E5F02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filters">
+      <UniqueIdentifier>{3F2C1A10-6B7D-4E8F-9A01-1B2C3D4E5F03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>App</Filter></ClCompile>
+    <ClCompile Include="CommandLineParser.cpp"><Filter>App</Filter></ClCompile>
+    <ClCompile Include="Logger.cpp"><Filter>App</Filter></ClCompile>
+    <ClCompile Include="DemoMode.cpp"><Filter>App</Filter></ClCompile>
+    <ClCompile Include="ImageBuffer.cpp"><Filter>Core</Filter></ClCompile>
+    <ClCompile Include="BmpParser.cpp"><Filter>Core</Filter></ClCompile>
+    <ClCompile Include="OutputWriter.cpp"><Filter>Core</Filter></ClCompile>
+    <ClCompile Include="Parallel.cpp"><Filter>Core</Filter></ClCompile>
+    <ClCompile Include="FilterBase.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="FilterFactory.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="FilterPipeline.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="GrayscaleFilter.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="InvertFilter.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="ThresholdFilter.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="GaussianBlurFilter.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="SharpenFilter.cpp"><Filter>Filters</Filter></ClCompile>
+    <ClCompile Include="SobelFilter.cpp"><Filter>Filters</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandLineParser.h"><Filter>App</Filter></ClInclude>
+    <ClInclude Include="Logger.h"><Filter>App</Filter></ClInclude>
+    <ClInclude Include="DemoMode.h"><Filter>App</Filter></ClInclude>
+    <ClInclude Include="Exceptions.h"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="ImageBuffer.h"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="BmpParser.h"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="OutputWriter.h"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="Parallel.h"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="PixelMath.h"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="FilterBase.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="FilterFactory.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="FilterPipeline.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="GrayscaleFilter.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="InvertFilter.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="ThresholdFilter.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="GaussianBlurFilter.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="SharpenFilter.h"><Filter>Filters</Filter></ClInclude>
+    <ClInclude Include="SobelFilter.h"><Filter>Filters</Filter></ClInclude>
+  </ItemGroup>
+</Project>
